@@ -9,6 +9,10 @@
   "files": ["src", "bin", "python/read_video.py", "python/requirements.txt", "cordis.patch.yml", "LICENSE", "README.md"],
   "engines": { "node": ">=22.12" },
   "license": "MIT",
+  "author": "Junhao-319",
+  "repository": { "type": "git", "url": "git+https://github.com/Junhao-319/dsh-local-video-reader.git" },
+  "homepage": "https://github.com/Junhao-319/dsh-local-video-reader#readme",
+  "bugs": { "url": "https://github.com/Junhao-319/dsh-local-video-reader/issues" },
   "keywords": ["dsh-plugin", "deepseek-harness", "video", "offline", "whisper", "ffmpeg"],
   "peerDependencies": {
     "@deepseek-ai/dsh-tools": ">=0.1.0-rc.7",
