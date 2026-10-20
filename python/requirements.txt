@@ -1,0 +1,7 @@
+imageio-ffmpeg==0.6.0
+Pillow==12.3.0
+faster-whisper==1.2.1
+av==19.0.1
+ctranslate2==4.8.3
+onnxruntime==1.31.0
+numpy==2.5.4

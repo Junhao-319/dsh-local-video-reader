@@ -1,0 +1,3 @@
+- insert:
+    - id: local-video-reader
+      name: dsh-local-video-reader

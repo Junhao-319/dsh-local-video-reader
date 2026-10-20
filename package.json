@@ -1,0 +1,26 @@
+{
+  "name": "dsh-local-video-reader",
+  "version": "0.1.0",
+  "description": "Local video frames, subtitles and offline speech transcription for DeepSeek Harness.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js", "./package.json": "./package.json" },
+  "bin": { "dsh-local-video-reader": "bin/cli.mjs" },
+  "files": ["src", "bin", "python/read_video.py", "python/requirements.txt", "cordis.patch.yml", "LICENSE", "README.md"],
+  "engines": { "node": ">=22.12" },
+  "license": "MIT",
+  "keywords": ["dsh-plugin", "deepseek-harness", "video", "offline", "whisper", "ffmpeg"],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.1.0-rc.7",
+    "@deepseek-ai/schemastery": ">=3.18.1"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-tools": { "optional": true },
+    "@deepseek-ai/schemastery": { "optional": true }
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "prepack": "npm test"
+  },
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" }
+}
