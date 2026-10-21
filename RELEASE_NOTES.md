@@ -1,4 +1,10 @@
-# 0.1.0 发布候选
+# 0.1.1 发布候选
+
+## 启动修复
+
+- 补充 `dsh.bundle.patch`，使 Desktop 能将插件作为 Profile bundle 加载。
+- 增加独立于宿主依赖的 bundle 清单检查；Windows 本地 10 项测试全部通过。
+- 已在 DSH Desktop 正常 Profile 启动中验证：启动完成且未因本插件返回安全模式。
 
 ## 功能
 

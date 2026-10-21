@@ -1,6 +1,6 @@
 {
   "name": "dsh-local-video-reader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Local video frames, subtitles and offline speech transcription for DeepSeek Harness.",
   "type": "module",
   "main": "src/index.js",
@@ -14,6 +14,7 @@
   "homepage": "https://github.com/Junhao-319/dsh-local-video-reader#readme",
   "bugs": { "url": "https://github.com/Junhao-319/dsh-local-video-reader/issues" },
   "keywords": ["dsh-plugin", "deepseek-harness", "video", "offline", "whisper", "ffmpeg"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
   "peerDependencies": {
     "@deepseek-ai/dsh-tools": ">=0.1.0-rc.7",
     "@deepseek-ai/schemastery": ">=3.18.1"

@@ -1,4 +1,5 @@
 node_modules/
+.npm-cache/
 *.tgz
 .venv/
 __pycache__/
